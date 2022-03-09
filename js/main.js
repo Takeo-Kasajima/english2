@@ -1,19 +1,13 @@
-'use strict'
+　'use strict'
 
 {
   const btn4 = document.getElementById('btn4');
     btn4.addEventListener('click', () =>{
       if(text4_.textContent=='答え'){ 
         const results =[
-        '色','黒','青','茶','金','緑','赤','銀','白','黄',
-        '1','2','3','4','5','6','7','8','9','10',
-        '11','12','13','14','15','16','17','18','19','20',
-        '30','40','50','60','70','80','90',
-        '100','1000','100万','10億',
-        '第1の 最初の','第2の','第3の','第4の','第5の','第6の','第7の','第8の','第9の','第10の',
-        '家族','親','夫','妻','父','母','息子','娘','祖父','祖母','孫',
-        'おじ','おば','兄　弟','姉　妹','いとこ',
-        '月曜日','火曜日','水曜日','木曜日','金曜日','土曜日','日曜日'];
+        'hill','tower','school','pool','bridge','church','gym','road','park','farm',
+        'town','beach','station','airport','building','temple','shop','supermarket','hospital','restaurant',
+        'hotel','street','zoo','bank'];
         // const results =['大吉','大吉','大吉','大吉','凶'];
         // btn.textContent=results[Math.floor(Math.random()*results.length)];
         const n=Math.floor(Math.random()*results.length);
@@ -43,15 +37,9 @@
         text4_.textContent='答え'
         // text1__.textContent=text.textContent
         const results =[
-        'color','black','blue','brown','gold','green','red','silver','white','yellow',
-        'one','two','three','four','five','six','seven','eight','nine','ten',        
-        'eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty',
-        'thirty','forty','fifty','sixty','seventy','eighty','ninety',
-        'hundred','thousand','million','billion',
-        'first','second','third','fourth','fifth','sixth','seventh','eighth','ninth','tenth',
-        'family','parent','husband','wife','father','mother','son','daughter','grandfather','grandmother','grandchild',
-        'uncle','aunt','brother','sister','cousin',
-        'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+        '丘','塔','学校','プール','橋','教会','体育館','道路','公園','農場',
+        '町','浜','駅','空港','建物','寺','店','スーパーマーケット','病院','レストラン',        
+        'ホテル','通り','動物園','銀行'];
         text4__.textContent=results[n4_.textContent];
       }
     });
